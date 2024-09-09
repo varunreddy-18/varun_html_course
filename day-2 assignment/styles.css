@@ -105,58 +105,7 @@ html {
     
     background-color: rgb(3, 3, 156);
   }
-  /* .hero-section {
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png');
-    background-color: rgb(38, 37, 37);
-    background-size: cover;
-    background-position: center;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
 
-.hero-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
-}
-
-.hero-overlay h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: white;
-}
-
-.hero-overlay p {
-    font-size: 1.5rem;
-    margin-bottom: 30px;
-}
-
-.cta-button {
-    background-color: blue;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: rgb(10, 10, 134);
-} */
   section {
     background-color: white;
     margin: 20px 0;
@@ -227,4 +176,78 @@ html {
 .b6{
   text-align: center;
   background-color: #dddde3;
+}
+.honeycomb {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.hexagon {
+  position: relative;
+  width: 150px;
+  height: 130px; 
+  background-color: #e0e0e0;
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+iframe{
+  display: block;
+  margin: 0 auto;
+}
+
+.hexagon:nth-child(odd) {
+  margin-top: 65px;
+}
+
+.hexagon:hover {
+  background-color:yellow;
+}
+
+.hex-content {
+  text-align: center;
+  color: blue;
+}
+
+.hex-content h3 {
+  margin: 0;
+  font-size: 1rem;
+  color:blue;
+}
+
+.hex-content p {
+  margin: 5px 0 0;
+  font-size: 0.9rem;
+  color: #ddd;
+}
+h3{
+  color: #0040df;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+}
+.video-section iframe{
+  display: block;
+  margin:0 auto;
 }
